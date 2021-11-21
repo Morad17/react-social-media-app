@@ -2,16 +2,24 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>
-            <h1>Register</h1>
-            <form action="/">
-                <label htmlFor="">Username</label>
-                <input type="text" />
-                <label htmlFor="">Password</label>
-                <input type="text" />
-                <label htmlFor="">Email</label>
-                <input type="text" />
-            </form>
+        <div className="home-container">
+            <div className="register-form-container">
+                <h1 className="">Register</h1>
+                <form action="/" className="">
+                    <div className="form-input">
+                        <label htmlFor="">Username</label>
+                        <input placeholder=""type="text" />
+                    </div>
+                    <div className="form-input">
+                        <label htmlFor="">Password</label>
+                        <input placeholder=""type="text" />
+                    </div>
+                    <div className="form-input">
+                        <label htmlFor="">Email</label>
+                        <input placeholder=""type="text" />
+                    </div>
+                </form>
+            </div>
         </div>
     )
 }
